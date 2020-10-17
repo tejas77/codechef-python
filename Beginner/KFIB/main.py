@@ -16,4 +16,3 @@ def fib(n, k):
         return arr[-1] % modulo
 
 print(fib(n, k))
-
