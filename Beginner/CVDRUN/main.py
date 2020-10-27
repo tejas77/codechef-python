@@ -8,6 +8,5 @@ for _ in range(t):
         x = aC
         if aC in aCs:
             break
-        else:
-            aCs.append(aC)
+        aCs.append(aC)
     print('YES' if y in aCs else 'NO')
