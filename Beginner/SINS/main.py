@@ -1,8 +1,6 @@
 from sys import stdin, stdout
+from math import gcd
 ans = []
-
-def gcd(a, b):
-    return b if a == 0 else gcd(b % a, a)
 
 for _ in range(int(stdin.readline())):
     m, b = map(int, stdin.readline().split())
